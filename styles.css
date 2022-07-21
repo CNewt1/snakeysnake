@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  cursor: url(snakeCursor.png), auto;
+}
 body {
   font-family: "Press Start 2p", Arial;
   text-align: center;
@@ -18,4 +27,30 @@ body {
   padding: 12px;
   margin: 5px, 5px;
   margin-bottom: 30px;
+}
+
+.btn:hover {
+  cursor: url(snakeHover.png), auto;
+  box-shadow: 3px 3px 3px black;
+}
+
+#footer {
+  font-family: Arial;
+  font-size: 30px;
+  position: fixed;
+  padding: 12px;
+  bottom: 0;
+  width: 110%;
+  height: 60px;
+  background-color: #293241;
+}
+
+a {
+  color: #ee6c4d;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: url(snakeHover.png), auto;
+  color: #98c1d9;
 }
